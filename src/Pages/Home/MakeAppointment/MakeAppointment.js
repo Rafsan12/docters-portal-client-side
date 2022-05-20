@@ -14,8 +14,8 @@ const MakeAppointment = () => {
             <div className='flex-1 hidden lg:block'>
                 <img className='mt-[-150px]' src={doctor} alt="" />
             </div>
-            <div className='flex-1'>
-                <h3 className='text-xl text-primary text-white'> Appointment</h3>
+            <div className='flex-1 px-5'>
+                <h3 className='text-xl text-primary text-white py-5'> Appointment</h3>
                 <h2 className='text-3xl'  >Make Appointment</h2>
                 <p className='text-white' >a formal arrangement to meet or visit someone at a particular time and place I'd like to make an appointment with Dr Evans, please.</p>
                 <Button>Get stated</Button>
